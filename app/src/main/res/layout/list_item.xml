@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+
+        <view
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="TRAVELLIN"
+            android:background="#B1E8ED"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/img0"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pulau_rubiah" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yxt_judul0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pulau rubiah (ACEH)"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/txt_keterangan0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pulau Rubiah terletak di Sabang,disebelah barat laut Pulau Weh.Di pulau ini anda bisa melakukan aktivitas diving dan snorkeling seru disini.Keindahan bawah laut pilau ini sangat menakjubkan,dimana terdapat 14 dan 15 biota laut yang saat ini masih dilindungi" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/masjid_baiturrahman">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yxt_judul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Masjid Baiturrahman (ACEH)"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Masjid Raya Baiturrahman mejadi desiasi wisata religi yang tidak boleh dilewatkan.Masjid ini sangat bersejarah bagi masyarakat Aceh.Bangunan utama berwarna putih dengan kubah berwarna hitam.Bangunan utama dikelilingi oleh tujuh menara yang juga memiliki kubah berwarna hitam.Adanya kolam dengan pancuran air didepan masjid menambah kemegahan masjid tersebut" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tanah_lot">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yxt_judul2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tanah Lot (BALI)"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_keterangan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pura Tanah Lot merupakan bagian dari Pura Kahyangan Jagat di Bali, ditujukan sebagai tempat memuja dewa penjaga laut. Pada saat air laut pasang, pura akan kelihatan dikelilingi air laut. Di bawahnya terdapat goa kecil yang didalamnya ada beberapa ular laut"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bali_safari">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yxt_judul3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bali Safari And Marine Park (BALI)"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_keterangan3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Bali Safari and Marine Park merupakan Taman Safari Indonesia 3 yang menjadi wisata menarik lainnya yang dapat anda kunjungi selama di Bali. Tempat ini menjadi tempat penangkaran bagi hewan-hewan yang rawan punah. Konsep dari Bali Safari and Marine park ini, pengunjung dapat menikmati pengalaman bersafari dimulai dari derah Bali Modern dan kemudian masuk ke daerah Bali kuno yang memberikan beberapa edukasi seputar sejarah, mitos, filosofi, dan lainnya yang berhubungan dengan kehidupan liar."/>
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/borobudur">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yxt_judul4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Candi Borobudur (JAWA TENGAH)"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_keterangan4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Candi borobudur disebut sebagai kompleks candi Buddha terbesar di Indonesia, bahkan juga terbesar dunia. UNESCO menetapkannya sebagai salah satu situs warisan dunia pada tahun 1991. Selain menjadi cagar budaya dunia, Candi Borobudur juga menjadi salah satu tempat wisata yang menarik banyak perhatian wisatawan domestik dan juga mancanegara.Tempat wisata di Jawa Tengah ini memiliki luas 123 x 123 meter persegi dan terdiri dari 10 tingkat. Bangunannya tersusun dari balok vulkanik yang membentuk 504 arca, 72 stupa dan sebuah stupa induk besar di puncaknya. Uniknya, balok-balok ini tersusun tanpa menggunakan perekat ataupun semen, kompleks ini terlihat seperti sebuah susunan lego raksasa."/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/art_world2">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yxt_judul5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amazing Art World (JAWA BARAT)"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_keterangan5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tempat Wisata di Bandung banyak sekali menghadirkan sejumlah tempat wisata yang Instagramable,alias tempat wisata kekinian yang seru dan bagus dijadikan sebagai tempat berfoto, berselfie atau bernarsis ria.Jika anda sudah saya kenalkan dengan wisata berfoto terbalik di tempat wisata Upside Down World, Taman Peri Cibiru,kemudian wisata foto dengan background pohon seperti jamur raksasa di Bukit Jamur Ciwidey, Palalangon Park,berfoto Sunset dan Sunrise di Tebing Keraton, kini anda bisa melakukannya di Amazing Art World."/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
